@@ -14,7 +14,7 @@ digraph G {
 
 	/* finally, connect them */
 	userInput -> whatKind;
-	whatKind -> cityName [label="Search for a city:];
+	whatKind -> cityName [label="Search for a city"];
 	whatKind -> gps [label="Geolocation"];
 	whatKind -> badData [label="Something else"];
 	badData -> exception;
